@@ -1,0 +1,81 @@
+  "passages": [
+    {
+      "text": "You are in the living room of a small cottage.\n\n[[Go left -> Broken Kitchen]]\n[[Go right -> Old Bathroom]]\n[[Go straight -> Door]]",
+      "links": [
+        {
+          "name": "Go left ",
+          "link": " Broken Kitchen",
+          "pid": "2"
+        },
+        {
+          "name": "Go right ",
+          "link": " Old Bathroom",
+          "pid": "3"
+        },
+        {
+          "name": "Go straight ",
+          "link": " Door",
+          "pid": "4"
+        }
+      ],
+      "name": "Living Room",
+      "pid": "1",
+      "position": {
+        "x": "401",
+        "y": "100"
+      }
+    },
+    {
+      "text": "The sink doesn't work and the fridge is missing.\n\n[[Go right ->Living Room]] ",
+      "links": [
+        {
+          "name": "Go right ",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": " Broken Kitchen",
+      "pid": "2",
+      "position": {
+        "x": "200",
+        "y": "101"
+      }
+    },
+    {
+      "text": "The toilet is gross and brown, the small tub is cracked, and the sink has been smashed from the wall.\n\n[[Go left ->Living Room]] ",
+      "links": [
+        {
+          "name": "Go left ",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": " Old Bathroom",
+      "pid": "3",
+      "position": {
+        "x": "600",
+        "y": "100"
+      }
+    },
+    {
+      "text": "There is a door. Possibly going outside?\n\n[[Go back ->Living Room]] ",
+      "links": [
+        {
+          "name": "Go back ",
+          "link": "Living Room",
+          "pid": "1"
+        }
+      ],
+      "name": " Door",
+      "pid": "4",
+      "position": {
+        "x": "400",
+        "y": "300"
+      }
+    }
+  ],
+  "name": "Export",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.9",
+  "ifid": "8461485A-917F-4CD0-969D-574A11291E5E"
