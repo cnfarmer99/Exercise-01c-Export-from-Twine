@@ -1,3 +1,4 @@
+  {
   "passages": [
     {
       "text": "You are in the living room of a small cottage.\n\n[[Go left -> Broken Kitchen]]\n[[Go right -> Old Bathroom]]\n[[Go straight -> Door]]",
@@ -79,3 +80,4 @@
   "creator": "Twine",
   "creator-version": "2.3.9",
   "ifid": "8461485A-917F-4CD0-969D-574A11291E5E"
+}
