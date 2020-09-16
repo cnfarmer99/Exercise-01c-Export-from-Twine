@@ -1,7 +1,7 @@
   {
   "passages": [
     {
-      "text": "You are in the living room of a small cottage.\n\n[[Go left -> Broken Kitchen]]\n[[Go right -> Old Bathroom]]\n[[Go straight -> Door]]",
+      "text": "You are in the living room of a small cottage.\n\nGo left\nGo right\nGo straight",
       "links": [
         {
           "name": "Go left ",
@@ -27,7 +27,7 @@
       }
     },
     {
-      "text": "The sink doesn't work and the fridge is missing.\n\n[[Go right ->Living Room]] ",
+      "text": "The sink doesn't work and the fridge is missing.\n\nGo right",
       "links": [
         {
           "name": "Go right ",
@@ -43,7 +43,7 @@
       }
     },
     {
-      "text": "The toilet is gross and brown, the small tub is cracked, and the sink has been smashed from the wall.\n\n[[Go left ->Living Room]] ",
+      "text": "The toilet is gross and brown, the small tub is cracked, and the sink has been smashed from the wall.\n\nGo left",
       "links": [
         {
           "name": "Go left ",
@@ -59,7 +59,7 @@
       }
     },
     {
-      "text": "There is a door. Possibly going outside?\n\n[[Go back ->Living Room]] ",
+      "text": "There is a door. Possibly going outside?\n\nGo back",
       "links": [
         {
           "name": "Go back ",
